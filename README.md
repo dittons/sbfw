@@ -63,6 +63,7 @@ Note that there was at least one custom firmware (for a SB3) produced for a thir
 (*) due to a change in the firmware update process, version 10 is used as a stepping stone from older to newer versions.
 
 #### IP3K Platform
+
 |Server|Squeezebox2/3|Transporter|Receiver|Boom|
 |:---:|:---:|:---:|:---:|:---:|
 |6.0b1|4|(n/a)|(n/a)|(n/a)|
@@ -149,6 +150,7 @@ Squeezebox appears to have 2MB of flash and organises it as follows -
 e.g. the flash layout of a boom running firmware version 57 is -
 
 #### *Example - Boom v57*
+
 |Address Range|Use|
 |:---:|:---:|
 |20000000 - 2001FFFF|bootstrap/debug monitor code|
