@@ -67,28 +67,31 @@ Note that there was at least one custom firmware (for a SB3) produced for a thir
 |:---:|:---:|:---:|:---:|:---:|
 |6.0b1|4|(n/a)|(n/a)|(n/a)|
 |6.0b2 - 6.0b3|6|(n/a)|(n/a)|(n/a)|
-
-x
-
-|Server|Squeezebox2/3|Transporter|Receiver|Boom|
-|:---:|:---:|:---:|:---:|:---:|
-|6.0|8|-|-|-|
-|6.0.1|9|-|-|-|
-|6.0.2|11|-|-|-|
-|6.1.b1 - 6.1.b2|14|-|-|-|
-|6.1.0 - 6.1.1|15|-|-|-|
-|6.2.b2|25|-|-|-|
-|6.2.0|26|-|-|-|
-|6.2.1|28|-|-|-|
-|6.2.2fc1|48|-|-|-|
-|6.3.0 - 6.3.1|55|-|-|-|
-|6.5.0.b2|62|14|-|-|
-|6.5.0|64|18|-|-|
-|6.5.1|72|27|-|-|
-|6.5.2 - 6.5.4|81|31|-|-|
-|7.0|86|36|22|-|
-|7.0.1|86|37|23|-|
-|7.1|101|50|36|-|
+|6.0|8|(n/a)|(n/a)|(n/a)|
+|6.0.1|9|(n/a)|(n/a)|(n/a)|
+|6.0.2|11|(n/a)|(n/a)|(n/a)|
+|6.1.b1 - 6.1.b2|14|(n/a)|(n/a)|(n/a)|
+|6.1.0 - 6.1.1|15|(n/a)|(n/a)|(n/a)|
+|6.2.b2|25|(n/a)|(n/a)|(n/a)|
+|6.2.0|26|(n/a)|(n/a)|(n/a)|
+|6.2.1|28|(n/a)|(n/a)|(n/a)|
+|6.0|8|(n/a)|(n/a)|(n/a)|
+|6.0.1|9|(n/a)|(n/a)|(n/a)|
+|6.0.2|11|(n/a)|(n/a)|(n/a)|
+|6.1.b1 - 6.1.b2|14|(n/a)|(n/a)|(n/a)|
+|6.1.0 - 6.1.1|15|(n/a)|(n/a)|(n/a)|
+|6.2.b2|25|(n/a)|(n/a)|(n/a)|
+|6.2.0|26|(n/a)|(n/a)|(n/a)|
+|6.2.1|28|(n/a)|(n/a)|(n/a)|
+|6.2.2fc1|48|(n/a)|(n/a)|(n/a)|
+|6.3.0 - 6.3.1|55|(n/a)|(n/a)|(n/a)|
+|6.5.0.b2|62|14|(n/a)|(n/a)|
+|6.5.0|64|18|(n/a)|(n/a)|
+|6.5.1|72|27|(n/a)|(n/a)|
+|6.5.2 - 6.5.4|81|31|(n/a)|(n/a)|
+|7.0|86|36|22|(n/a)|
+|7.0.1|86|37|23|(n/a)|
+|7.1|101|50|36|(n/a)|
 |7.2|112|62|47|32(*)|
 |7.2.1|113|63|48|33|
 |7.3|120|70|55|40|
@@ -212,7 +215,7 @@ The update stub can be found in the update image at offsets `00000080 - 00000197
 This does some initial limited hardware setup (related to IP3K timer and flash programmer parameters), copies the decompression code to SRAM and then transfers control to it.
 
 This is very constistent between products and versions.  The only differences to note are -
-1. Slight differences in hardware parameters and in timing loop values used (on all Transporter firwmares due to higher 325MHZ compare to the 250MHz of other products)
+1. Slight differences in hardware parameters and in timing loop values used (on all Transporter firwmares due to the 325MHz clock compared to the 250MHz used on other products)
 1. Trivial differences in register allocations (on SB2 FW verions 28 and prior), perhaps due to an earlier compiler or SDK version being used?
 
 ### Decompression & Update Code
