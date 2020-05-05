@@ -64,7 +64,7 @@ Note that there was at least one custom firmware (for a SB3) produced for a thir
 
 #### IP3K Platform
 |Server|Squeezebox2/3|Transporter|Receiver|Boom|
-|:-:|:-:|:-:|:-:|:-:|
+|:---:|:---:|:---:|:---:|:---:|
 |6.0b1|4|-|-|-|
 |6.0b2 - 6.0b3|6|-|-|-|
 |6.0|8|-|-|-|
@@ -142,7 +142,7 @@ e.g. the flash layout of a boom running firmware version 57 is -
 
 #### *Example - Boom v57*
 |Address Range|Use|
-|:-:|:-:|
+|:---:|:---:|
 |20000000 - 2001FFFF|bootstrap/debug monitor code|
 |20020000 - 2014C2FF|active firmware image|
 |2014C300 - 2015FFFF|unused|
