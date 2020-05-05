@@ -65,8 +65,13 @@ Note that there was at least one custom firmware (for a SB3) produced for a thir
 #### IP3K Platform
 |Server|Squeezebox2/3|Transporter|Receiver|Boom|
 |:---:|:---:|:---:|:---:|:---:|
-|6.0b1|4|-|-|-|
-|6.0b2 - 6.0b3|6|-|-|-|
+|6.0b1|4|(n/a)|(n/a)|(n/a)|
+|6.0b2 - 6.0b3|6|(n/a)|(n/a)|(n/a)|
+
+x
+
+|Server|Squeezebox2/3|Transporter|Receiver|Boom|
+|:---:|:---:|:---:|:---:|:---:|
 |6.0|8|-|-|-|
 |6.0.1|9|-|-|-|
 |6.0.2|11|-|-|-|
